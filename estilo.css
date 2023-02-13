@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+  }
+  
+  header {
+    background-color: #fff;
+  }
+  
+  input {
+    width: 200px;
+    height: 50px;
+  }
+  
+  a {
+    color: #0c2b4b;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 35px;
+    color: #0c2b4b;
+  }
+  
+  h4 {
+    color: #0c2b4b;
+  }
+  
+  h5 {
+    color: #f4bc04;
+  }
+
+  follow{
+    color: #fff;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+  }
+  
+  footer {
+    background-color: #0c2b4b;
+    padding: 50px;
+  }
+  
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4bc04;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+  }
+  
+  .arrow-left {
+    margin-left: 25px;
+  }
+  
+  .arrow-right {
+    position: absolute;
+    right: 25px;
+  }
+  
+  .logo {
+    font-size: 15px;
+  }
+  
+  .item-logo {
+    justify-content: start;
+  }
+  
+  .container-footer {
+    max-width: 1400px;
+    padding: 0 4px;
+    margin: auto;
+  }
+  
+  .row-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col {
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+  .footer-col h3 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  .footer-col ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3;
+  }
+  
+  .begin {
+    font-size: 25px;
+    padding: 4px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .inicio-item {
+    color: #f4bc04;
+  }
+  
+  .medio-item {
+    font-size: 25px;
+    padding: 4px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .meio-item {
+    font-size: 25px;
+    padding: 4px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .final-item {
+    font-size: 22px;
+    padding: 8px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .informacoes-itens {
+    color: white;
+  }
+  
+  .right-space {
+    margin-right: 10px;
+  }
+  
+  .treinees img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .treinees-info {
+    background-color: rgb(243, 246, 248);
+    padding: 10px;
+    margin-top: -5px;
+  }
+  
+  .treinees-info h5 {
+    color: #0c2b4b;
+  }
+  
+  .treinees-info p {
+    color: gray;
+    font-size: 13px;
+  }
+  
+  .body-two-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .centered {
+    align-items: center;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4bc04;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .item-itens {
+    list-style: none;
+  }
+  
+  .icon img {
+    height: 20px;
+  }
+  
+  .item-container {
+    padding: 80px 150px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .body-item {
+    display: flex;
+    padding: 80px 0;
+    align-items: center;
+    max-width: 1200px;
+  }
+  
+  .body-item img {
+    width: 400px;
+  }
+  
+  .body-item p {
+    color: gray;
+  }
+  
+  .btn-yellow {
+    padding: 10px;
+    width: 100px;
+    background-color: #f4bc04;
+    color: white;
+  }
+  
+  .navbar {
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0c2b4b;
+  }
+  
+  .nav-itens {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    font-size: 15px;
+    margin-right: 40px;
+  }
+  
+  .link {
+    transition: 0.5s;
+  }
+  
+  .link:hover {
+    color: #f4bc04;
+  }
+  
+  .btn-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .btn {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+  
+    transition: 0.3s;
+  }
+  
+  .new-btn {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 15px;
+    background-color: #f4bc04;
+    height: 65px;
+    width: 150px;
+    list-style: none;
+  }
+  
+  .new {
+    list-style: none;
+    padding: 25px;
+  }
+  
+  .banner {
+    background-image: url(https://site.zuldigital.com.br/blog/wp-content/uploads/2020/10/shutterstock_1536580256_Easy-Resize.com_.jpg);
+    height: 600px;
+    width: 100%;
+    color: white;
+    font-size: 60px;
+    padding-top: 140;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+  }
+  .banner-content {
+    padding-left: 50px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+
+  .midias-sociais {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    width: 250px;
+    height: 55px;
+    padding: 20px;
+    position: absolute;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
